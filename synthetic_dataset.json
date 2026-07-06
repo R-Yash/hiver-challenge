@@ -1,0 +1,377 @@
+[
+    {
+        "category": "IT Support",
+        "incoming_email": "Hey, my Slack is acting up and I can't see any of the huddle controls. Anyone else having this? I already tried restarting.",
+        "reference_reply": "Hey, I haven't seen this yet today. Can you open a request in the IT Self-Service Portal so we can track it? If you already have, please send over the Jira ticket number. Thanks!"
+    },
+    {
+        "category": "IT Support",
+        "incoming_email": "urgent! lost my yubikey somewhere in the parking lot. need a replacement asap to log into AWS. please help.",
+        "reference_reply": "Oh no! I can disable the lost key immediately. Please go to the IT Self-Service Portal to request a new one, or reply with the Jira ticket number if you've already created one."
+    },
+    {
+        "category": "IT Support",
+        "incoming_email": "Hi IT Team, I need access to the Adobe Creative Suite for the new marketing campaign assets. My manager approved this last week. Thanks, Sarah.",
+        "reference_reply": "Hi Sarah, thanks for reaching out. Please submit this request through the IT Self-Service Portal so we can get your manager's formal approval attached, or send me the Jira ticket number if it's already generated."
+    },
+    {
+        "category": "IT Support",
+        "incoming_email": "Hey, my monitor is doing this weird flickering thing every 5 minutes. Tried changing the HDMI cable but no luck. Any spare monitors on floor 2?",
+        "reference_reply": "Hey there! We do have some spares. Please log a ticket in the IT Self-Service Portal so we can allocate one to you, and send me the Jira ticket number once you do."
+    },
+    {
+        "category": "IT Support",
+        "incoming_email": "hi, i can't access the staging database since this morning. getting a timeout error. is the VPN down?",
+        "reference_reply": "VPN is up, but there might be an IP whitelist issue. Please raise a ticket on the IT Self-Service Portal so the network team can look at it, or send over the Jira ticket number."
+    },
+    {
+        "category": "HR/PTO",
+        "incoming_email": "Hey team, I need to take off next Friday (the 14th) for a long weekend trip. Lmk if any issues with coverage.",
+        "reference_reply": "Sounds great, enjoy your trip! Please make sure to update the \"Team OOO Calendar\" so everyone knows you're out."
+    },
+    {
+        "category": "HR/PTO",
+        "incoming_email": "Hi HR, I'm planning my parental leave starting tentatively in mid-October. I wanted to check what forms I need to fill out beforehand.",
+        "reference_reply": "Congratulations! I'll send over the parental leave policy pack. When you have your dates finalized, please remember to update the \"Team OOO Calendar\" as well."
+    },
+    {
+        "category": "HR/PTO",
+        "incoming_email": "Woke up with a nasty fever today. Going to take a sick day and stay offline. Hopefully back tomorrow.",
+        "reference_reply": "Oh no, get some rest! Don't worry about work today. Just make sure to update the \"Team OOO Calendar\" when you get a chance so the team is aware."
+    },
+    {
+        "category": "HR/PTO",
+        "incoming_email": "Hi all, I have a dentist appointment next Tuesday at 2 PM. I'll be offline for about 2 hours.",
+        "reference_reply": "No worries, thanks for the heads up! Please remember to update the \"Team OOO Calendar\" for those hours."
+    },
+    {
+        "category": "HR/PTO",
+        "incoming_email": "Hey, I'm requesting approval for a 2-week sabbatical in September (from Sept 4 to Sept 18). My team lead has already signed off on the dates.",
+        "reference_reply": "That sounds like an amazing break! I've approved it in the system. Please don't forget to update the \"Team OOO Calendar\" for those dates."
+    },
+    {
+        "category": "Code Reviews",
+        "incoming_email": "Hey! Can someone take a look at my PR for the navbar redesign? It's blocking the QA team. Here's the link: github.com/org/repo/pulls/402",
+        "reference_reply": "I'll take a look at this PR by EOD today. Thanks for the link!"
+    },
+    {
+        "category": "Code Reviews",
+        "incoming_email": "URGENT: Hotfix for the checkout crash is ready. Need a quick review so we can deploy. https://github.com/org/repo/pulls/991",
+        "reference_reply": "On it. I will review this PR by EOD to make sure we get it deployed safely."
+    },
+    {
+        "category": "Code Reviews",
+        "incoming_email": "Hey, I pushed the changes for the API endpoint refactor. Can you do a code review when you have a sec?",
+        "reference_reply": "I can definitely review that for you! Could you please send over the PR link? I'll make sure to get to it by EOD."
+    },
+    {
+        "category": "Code Reviews",
+        "incoming_email": "Hi team, I've completed the unit tests for the authentication module. PR is ready for review: github.com/org/repo/pulls/104",
+        "reference_reply": "Awesome, thanks for writing those tests. I will review your PR by EOD."
+    },
+    {
+        "category": "Code Reviews",
+        "incoming_email": "Hey, I just finished the security patch for the SQL injection vulnerability. Needs an immediate review.",
+        "reference_reply": "I'll prioritize this! Please drop the PR link here, and I'll review it by EOD."
+    },
+    {
+        "category": "Meeting Coordination",
+        "incoming_email": "Hey, I have a conflict during our 1-on-1 today at 3 PM. Can we reschedule?",
+        "reference_reply": "No problem at all. Can we do either tomorrow at 10:00 AM or Friday at 2:00 PM?"
+    },
+    {
+        "category": "Meeting Coordination",
+        "incoming_email": "Hi everyone, we need to reschedule the architecture review originally set for Thursday morning because the lead architect is out. Let me know when works.",
+        "reference_reply": "Thanks for letting us know. How about we reschedule to Monday at 11:00 AM or Tuesday at 3:30 PM?"
+    },
+    {
+        "category": "Meeting Coordination",
+        "incoming_email": "URGENT: I have a client emergency and won't make the project sync in 10 mins. Can we move it to later this week?",
+        "reference_reply": "Hope everything goes well with the client! Let's reschedule. Would Wednesday at 1:00 PM or Thursday at 9:30 AM work for you?"
+    },
+    {
+        "category": "Meeting Coordination",
+        "incoming_email": "Hey! Let's grab that virtual coffee chat we talked about, but my calendar is packed today. Can we reschedule for next week?",
+        "reference_reply": "Totally! Let's reschedule. How about next Tuesday at 11:00 AM or next Thursday at 4:00 PM?"
+    },
+    {
+        "category": "Meeting Coordination",
+        "incoming_email": "Hi team, the post-mortem for last week's outage needs to be rescheduled as we still don't have the full logs analyzed. Let's push it.",
+        "reference_reply": "Understood. Let's reschedule once the data is ready. Would next Wednesday at 2:00 PM or next Thursday at 10:00 AM work?"
+    },
+    {
+        "category": "General Chatter",
+        "incoming_email": "Hey everyone, board game night is back! Wednesday at 6 PM in the breakroom. We have Catan, Codenames, and some others. Who's in?",
+        "reference_reply": "Awesome! Count me in. I'll bring some snacks too."
+    },
+    {
+        "category": "General Chatter",
+        "incoming_email": "Hey, did someone leave a black Patagonia jacket in the 3rd floor breakroom? It's been on the chair since yesterday.",
+        "reference_reply": "Oh, I think that might be Dave's. I'll shoot him a Slack message to let him know."
+    },
+    {
+        "category": "General Chatter",
+        "incoming_email": "Sad news... the espresso machine on floor 4 is out of order again. The red light is flashing.",
+        "reference_reply": "Nooo, not again! Thanks for the warning, guess I'm walking down to floor 2 for my caffeine fix today."
+    },
+    {
+        "category": "General Chatter",
+        "incoming_email": "Hey guys, just a reminder to sign up for the office Secret Santa by Friday if you want to participate!",
+        "reference_reply": "Just signed up! Can't wait to see who I get this year."
+    },
+    {
+        "category": "General Chatter",
+        "incoming_email": "Found this really interesting article on how Figma optimized their WebAssembly canvas rendering. Worth a read: figma.com/blog/wasm-rendering",
+        "reference_reply": "This is super cool, thanks for sharing! The performance gains they got from WASM are pretty wild."
+    },
+    {
+        "category": "IT Support",
+        "incoming_email": "Hey, my screen is flickering crazy fast and I have a demo in an hour. Can someone look at this asap? - Dave",
+        "reference_reply": "Hey Dave, sorry to hear that. Please submit this via the IT Self-Service Portal immediately so we can route a tech to you, or send over the Jira ticket number if you already created one so I can escalate it."
+    },
+    {
+        "category": "IT Support",
+        "incoming_email": "Hey team, my spacebar is sticking on my Mac keyboard. Can I swap it for a new one sometime this week? Thanks, Sarah",
+        "reference_reply": "Hi Sarah, absolutely. Could you please file a quick request on the IT Self-Service Portal? Once you have the Jira ticket number, let me know and I'll prep the replacement for you to pick up."
+    },
+    {
+        "category": "IT Support",
+        "incoming_email": "Hello IT Team, I require a license for IntelliJ IDEA Ultimate for my upcoming project. Could you please assist with this provisioning? Best regards, Elena Rostova, Senior Dev",
+        "reference_reply": "Hello Elena, I can certainly help with that. Please ensure you have requested this through our IT Self-Service Portal. If you have already done so, please reply with the Jira ticket number so I can expedite the approval."
+    },
+    {
+        "category": "IT Support",
+        "incoming_email": "VPN keeps dropping every 5 mins. Can't get any work done. Is the server down??",
+        "reference_reply": "We aren't seeing widespread outages, but let's get this looked at. Please open a high-priority ticket on the IT Self-Service Portal, or reply here with your Jira ticket number so we can track the logs."
+    },
+    {
+        "category": "IT Support",
+        "incoming_email": "Hey, does anyone have a spare USB-C to DisplayPort cable? Mine seems dead. - Mark",
+        "reference_reply": "Hey Mark, we have plenty in the tech cabinet. Just make sure to log it in the IT Self-Service Portal first so we can track inventory. Let me know the Jira ticket number when done!"
+    },
+    {
+        "category": "HR/PTO",
+        "incoming_email": "Hey team, need to head out at 2 PM today for an emergency dentist appointment. Will make up the hours tomorrow. - Alex",
+        "reference_reply": "Hope everything goes well at the dentist, Alex! Don't forget to update the Team OOO Calendar so everyone knows you're offline this afternoon."
+    },
+    {
+        "category": "HR/PTO",
+        "incoming_email": "Hi Team, I would like to request PTO for the week of November 12th to November 16th. I have already requested approval in Workday. Thanks, Priya",
+        "reference_reply": "Hi Priya, your PTO request is approved on my end. Please make sure to update the Team OOO Calendar with those dates before you head out. Enjoy your time off!"
+    },
+    {
+        "category": "HR/PTO",
+        "incoming_email": "Woke up with a terrible fever today, won't be able to make it to the standup or do any work. Will keep you updated. - Josh",
+        "reference_reply": "Oh no, sorry to hear that Josh. Rest up and feel better! When you're back online or if you have a quick second, please make sure to update the Team OOO Calendar."
+    },
+    {
+        "category": "HR/PTO",
+        "incoming_email": "Hey manager, taking this Friday afternoon off to help my sister move. Will be offline from 1pm onwards. Cheers, Tom",
+        "reference_reply": "Sounds good, Tom. Good luck with the move! Just a quick reminder to update the Team OOO Calendar for Friday afternoon."
+    },
+    {
+        "category": "HR/PTO",
+        "incoming_email": "Dear Team, just a heads-up that my parental leave is scheduled to start on October 1st for 6 weeks. I am finalizing my handoff docs this week. Sincerely, Marcus",
+        "reference_reply": "Exciting times, Marcus! Thanks for the heads up. Please remember to update the Team OOO Calendar with your block of leave so the team can plan sprint capacities accordingly."
+    },
+    {
+        "category": "Code Reviews",
+        "incoming_email": "Hey! Can someone take a look at this PR? It fixes the auth token expiration bug. Link: https://github.com/org/repo/pulls/402",
+        "reference_reply": "Hey! I'll take a look at the PR and get back to you with comments by EOD."
+    },
+    {
+        "category": "Code Reviews",
+        "incoming_email": "URGENT: Just pushed the fix for the production DB timeout issue. Need eyes on this immediately so we can deploy.",
+        "reference_reply": "I can review this immediately, but you didn't include the link. Please send over the PR link! I'll make sure to complete my review by EOD."
+    },
+    {
+        "category": "Code Reviews",
+        "incoming_email": "Hello Team, the implementation of the new billing flow is complete. Please review the changes at your earliest convenience: https://github.com/org/repo/pull/589. Regards, Linus",
+        "reference_reply": "Hello Linus, thank you for the update. I will review this billing flow PR and provide feedback by EOD."
+    },
+    {
+        "category": "Code Reviews",
+        "incoming_email": "Hey, just submitted a quick fix for the button alignment on the landing page. Let me know what you think.",
+        "reference_reply": "Hey, I'd love to take a look, but could you send over the PR link? I'll review it by EOD."
+    },
+    {
+        "category": "Code Reviews",
+        "incoming_email": "Hey security patch ready for review. Must go out today. https://github.com/org/repo/pull/991",
+        "reference_reply": "On it. I will review this security patch PR by EOD."
+    },
+    {
+        "category": "Meeting Coordination",
+        "incoming_email": "Hey, I have a sudden conflict with a client call during our 1:1 at 2 PM today. Can we reschedule? - Chloe",
+        "reference_reply": "No problem, Chloe. Let's reschedule. How about today at 4:00 PM or tomorrow at 10:30 AM?"
+    },
+    {
+        "category": "Meeting Coordination",
+        "incoming_email": "Hey guys, I have a dentist appointment that overlaps with sprint planning tomorrow morning. Can we move it?",
+        "reference_reply": "Sure, we can move sprint planning. Let's reschedule for tomorrow at 1:00 PM or tomorrow at 3:00 PM."
+    },
+    {
+        "category": "Meeting Coordination",
+        "incoming_email": "Dear Team, due to an unexpected board meeting, we must reschedule the Q3 Engineering Review originally set for Thursday. Apologies for the inconvenience. Best, Arthur",
+        "reference_reply": "Understood, Arthur. Let's reschedule the review. I propose we meet on Friday at 11:00 AM or next Monday at 2:00 PM."
+    },
+    {
+        "category": "Meeting Coordination",
+        "incoming_email": "Hey! I know we had coffee scheduled for tomorrow at 9 AM, but I completely forgot I have a vet appointment then. Can we push it?",
+        "reference_reply": "No worries at all! Let's reschedule. How about tomorrow at 1:30 PM or Friday at 10:00 AM?"
+    },
+    {
+        "category": "Meeting Coordination",
+        "incoming_email": "We need to reschedule the incident post-mortem because the principal architect is out sick today. Let's find another time.",
+        "reference_reply": "Got it. Let's reschedule. I propose we do it tomorrow at 9:00 AM or tomorrow at 2:00 PM."
+    },
+    {
+        "category": "General Chatter",
+        "incoming_email": "Anyone up for tacos today? Heading out around 12:15. - Sam",
+        "reference_reply": "Count me in! I've been craving those birria tacos all week. See you in the lobby at 12:15."
+    },
+    {
+        "category": "General Chatter",
+        "incoming_email": "Leftover catering from the client event in the 3rd floor kitchen. Tons of sliders and cookies! Come grab them.",
+        "reference_reply": "Omw! Thanks for the heads up, those cookies are legendary."
+    },
+    {
+        "category": "General Chatter",
+        "incoming_email": "Hey team, making a collaborative playlist for the office speakers. Add your favorite tracks here: [link]",
+        "reference_reply": "Awesome idea! Just added a bunch of synthwave tracks. Hope everyone likes electronic beats!"
+    },
+    {
+        "category": "General Chatter",
+        "incoming_email": "Hey, did anyone find a set of keys with a tiny Yoda keychain in the micro-kitchen? I think I left them there during coffee.",
+        "reference_reply": "Hey! Yes, I actually saw them next to the espresso machine. I left them with reception for safekeeping."
+    },
+    {
+        "category": "General Chatter",
+        "incoming_email": "Hey folks, doing a board game night in the cafeteria this Thursday after 5:30 PM. We have Catan and Code Names. Anyone interested?",
+        "reference_reply": "I'm definitely down for some Catan! I'll bring along my copy of Ticket to Ride too."
+    },
+    {
+        "category": "IT Support",
+        "incoming_email": "Urgent: VPN issues. Hey IT team, my VPN keeps dropping every 5 mins. I have a client demo in an hour. Help!",
+        "reference_reply": "Sorry to hear that, let's get this sorted. Do you have a Jira ticket number for this? If not, please submit one via the IT Self-Service Portal ASAP so we can track and escalate it immediately."
+    },
+    {
+        "category": "IT Support",
+        "incoming_email": "Hey, can someone grant me edit access to Figma? Need to tweak some designs.",
+        "reference_reply": "Hey! Can you please submit a request through the IT Self-Service Portal? Once it's approved there, we'll get you set up right away."
+    },
+    {
+        "category": "IT Support",
+        "incoming_email": "Hello IT Support, I would like to request a second monitor for my home office setup as approved by my manager. Please let me know the process.",
+        "reference_reply": "Hello, thank you for reaching out. Please submit this request through our IT Self-Service Portal with your manager's written approval attached. Alternatively, if you've already created a ticket, please share the Jira ticket number here."
+    },
+    {
+        "category": "IT Support",
+        "incoming_email": "Locked out of my Okta account. Can someone reset it? I'm completely blocked from all tools.",
+        "reference_reply": "On it! What's your Jira ticket number? If you can't log in to make one, please use the guest link on the IT Self-Service Portal to generate a ticket so we can verify your identity."
+    },
+    {
+        "category": "IT Support",
+        "incoming_email": "Hey guys, the 3rd floor printer is jamming again. Trying to print some physical architecture diagrams.",
+        "reference_reply": "Ugh, that printer is the worst. Could you open a ticket on the IT Self-Service Portal so we can page the local technician? Thanks!"
+    },
+    {
+        "category": "HR/PTO",
+        "incoming_email": "Hey team, gotta head out early today around 2 PM for an emergency dentist appointment. Will make up the hours tomorrow.",
+        "reference_reply": "No worries at all, hope everything goes well at the dentist! Just make sure to update the Team OOO Calendar before you head out."
+    },
+    {
+        "category": "HR/PTO",
+        "incoming_email": "Hi HR and Team, I am writing to formally request time off from October 12th to October 26th for my upcoming wedding and honeymoon. This has been verbally approved by my manager.",
+        "reference_reply": "Congratulations! That is so exciting. I've approved the request in Workday. Please don't forget to update the Team OOO Calendar for those dates so the team is aware."
+    },
+    {
+        "category": "HR/PTO",
+        "incoming_email": "Woke up with a terrible fever. Going to take a sick day today. Will check Slack intermittently if urgent.",
+        "reference_reply": "Oh no, please rest up and don't worry about Slack! Get some sleep. When you're back, just remember to update the Team OOO Calendar."
+    },
+    {
+        "category": "HR/PTO",
+        "incoming_email": "Hey, taking this Friday off to make it a long weekend. See you all Monday!",
+        "reference_reply": "Nice! Have a great long weekend. Don't forget to update the Team OOO Calendar before you log off on Thursday."
+    },
+    {
+        "category": "HR/PTO",
+        "incoming_email": "Dear HR, I have been summoned for jury duty starting next Tuesday. I am unsure how long it will take, but I will keep you updated daily.",
+        "reference_reply": "Thank you for letting us know. We will mark this as civic duty leave. Please make sure to update the Team OOO Calendar to show you are out starting next Tuesday."
+    },
+    {
+        "category": "Code Reviews",
+        "incoming_email": "Hey, finished the refactoring for the auth service. Can someone take a look? Here's the link: github.com/org/repo/pulls/402",
+        "reference_reply": "Nice job on this. I'll take a look and review the PR by EOD today!"
+    },
+    {
+        "category": "Code Reviews",
+        "incoming_email": "URGENT: Just pushed a hotfix for the payment gateway bug. Need an immediate review so we can deploy to prod!",
+        "reference_reply": "I can jump on this immediately. Can you share the PR link? Once I have it, I'll review the PR by EOD."
+    },
+    {
+        "category": "Code Reviews",
+        "incoming_email": "Hi Dave, I have completed the database migration script. Could you please perform a code review when you have a moment? PR link: github.com/org/repo/pulls/881",
+        "reference_reply": "Thanks for the heads up, I'll make sure to review the PR by EOD today. Looks like a critical migration."
+    },
+    {
+        "category": "Code Reviews",
+        "incoming_email": "Hey, finally got the draft PR ready for the new UI dashboard. Let me know what you think of the component structure.",
+        "reference_reply": "Awesome, excited to see it! Could you send over the PR link? I'll review the PR by EOD."
+    },
+    {
+        "category": "Code Reviews",
+        "incoming_email": "Heads up, this PR contains breaking changes to the API schema. Need eyes on this before the sprint ends. github.com/org/repo/pulls/912",
+        "reference_reply": "Yikes, breaking changes. I will prioritize this and review the PR by EOD today."
+    },
+    {
+        "category": "Meeting Coordination",
+        "incoming_email": "Hey, sorry but something came up. Can we reschedule our 1:1 today?",
+        "reference_reply": "No worries! Let's reschedule. How about tomorrow at 10:00 AM or Thursday at 2:00 PM?"
+    },
+    {
+        "category": "Meeting Coordination",
+        "incoming_email": "Dear Team, due to a conflict with an executive briefing, we must reschedule the client alignment meeting scheduled for this afternoon.",
+        "reference_reply": "Understood. I propose we reschedule to either Wednesday at 11:00 AM or Friday at 3:00 PM. Please let me know which works."
+    },
+    {
+        "category": "Meeting Coordination",
+        "incoming_email": "Hey team, the product roadmap isn't finalized yet. We need to postpone sprint planning scheduled for 9 AM tomorrow.",
+        "reference_reply": "Got it, makes sense to wait. Let's reschedule for Thursday at 1:00 PM or Friday at 10:00 AM once the roadmap is locked."
+    },
+    {
+        "category": "Meeting Coordination",
+        "incoming_email": "Hey, can we push our lunch sync back? My previous meeting is running super late.",
+        "reference_reply": "Sure thing. Let's reschedule for 1:30 PM today or 12:00 PM tomorrow instead."
+    },
+    {
+        "category": "Meeting Coordination",
+        "incoming_email": "Hello all, we are still waiting on the design assets. We need to reschedule the project kickoff.",
+        "reference_reply": "Thanks for the update. Let's reschedule the kickoff. I propose next Monday at 2:00 PM or next Tuesday at 10:00 AM."
+    },
+    {
+        "category": "General Chatter",
+        "incoming_email": "Heading down to Blue Bottle for a coffee. Anyone want anything?",
+        "reference_reply": "Oh, yes please! Could you grab me an iced oat milk latte? I'll Venmo you. Thanks!"
+    },
+    {
+        "category": "General Chatter",
+        "incoming_email": "Leftover catering from the client lunch is in the 4th floor kitchen. Tons of sushi left!",
+        "reference_reply": "Omw! Thanks for the heads up, saving me $20 on lunch today."
+    },
+    {
+        "category": "General Chatter",
+        "incoming_email": "Is Slack lagging for anyone else or is my home internet just dying?",
+        "reference_reply": "Definitely lagging for me too. DownDetector shows a spike. Time to take an unscheduled break I guess!"
+    },
+    {
+        "category": "General Chatter",
+        "incoming_email": "Congrats to the Core Infra team on the successful migration last night! Zero downtime recorded.",
+        "reference_reply": "Thank you! It was a massive team effort, especially from the night shift folks. Appreciate the support!"
+    },
+    {
+        "category": "General Chatter",
+        "incoming_email": "Hey, doing a board game night in the cafeteria this Thursday after 6 PM. We have Catan and Code Names. Who's in?",
+        "reference_reply": "Count me in! I'll bring along my copy of Ticket to Ride as well. See you there!"
+    }
+]
